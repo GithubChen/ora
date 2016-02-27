@@ -1,0 +1,123 @@
+//
+// Scaffolding
+//
+html {
+	font-size: $font-size-base;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+//
+// body reset
+//
+body {
+	font: {
+		family: $font-family-default;
+		size: $font-size-default;
+	}
+	line-height: $line-height-base;
+	background-color: $body-bgc;
+	color: $text-color;
+	text-transform: capitalize;
+}
+
+//
+// Headings and p reset
+//
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+//
+// Links reset
+//
+a {
+	color: $link-color;
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		color: $link-hover-color;
+		text-decoration: $link-hover-decoration;
+	}
+}
+
+//
+// image
+//
+img {
+  vertical-align: middle;
+}
+
+//
+// Reset fonts for relevant elements
+//
+input,
+button,
+select,
+textarea {
+	font: {
+		family: inherit;
+		size: inherit;
+	}
+	line-height: inherit;
+}
+
+// canvas style
+canvas {
+	width: 100%;
+	height: auto;
+	max-height: 450px;
+	min-height: 350px;
+}
+
+// info style
+.info {
+	background: lightgray;
+	border: 1px solid darkgray;
+	border-radius: 5px;
+	padding: 10px 20px 20px;
+}
+
+h2 {
+	color:rgba(40,57,145,.6);
+	font-weight: bold;
+	text-align: center;
+}
+
+// set the space for each col
+.col-xs-12 {
+	margin: 15px 0;
+}
+
+// box color for redar chart
+.box {
+	width:10px;
+	height:10px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.red {
+	background: rgba(239,28,39,.8);
+}
+.orange {
+	background: rgba(248,148,36,.8);
+}
+.yellow {
+	background: rgba(247,237,52,.8);
+}
+.green {
+	background: rgba(67,183,76,.8);
+}
+.lightblue {
+	background: rgba(26,150,214,.8);
+}
+.blue {
+	background: rgba(40,57,145,.6);
+}

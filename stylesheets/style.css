@@ -1,0 +1,163 @@
+/*
+*	Name   		: 	ORA
+*	Author 		: 	Eason Chen
+*	Version: 	: 	1.0.0
+*	Inspiration : 	https://github.com/twbs/bootstrap-sass
+*
+*/
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: transparent;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #555;
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: middle;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  min-height: 350px;
+}
+
+.info {
+  background: lightgray;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  padding: 10px 20px 20px;
+}
+
+h2 {
+  color: rgba(40, 57, 145, 0.6);
+  font-weight: bold;
+  text-align: center;
+}
+
+.col-xs-12 {
+  margin: 15px 0;
+}
+
+.box {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.red {
+  background: rgba(239, 28, 39, 0.8);
+}
+
+.orange {
+  background: rgba(248, 148, 36, 0.8);
+}
+
+.yellow {
+  background: rgba(247, 237, 52, 0.8);
+}
+
+.green {
+  background: rgba(67, 183, 76, 0.8);
+}
+
+.lightblue {
+  background: rgba(26, 150, 214, 0.8);
+}
+
+.blue {
+  background: rgba(40, 57, 145, 0.6);
+}
+
+h1 {
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  color: #555;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  color: #555;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #555;
+}
+
+h4 {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #555;
+}
+
+h5 {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #555;
+}
+
+h6 {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #555;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #000;
+}
+
+.text-large {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #000;
+}
+
+.text-small {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #000;
+}

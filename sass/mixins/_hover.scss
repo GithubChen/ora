@@ -1,0 +1,10 @@
+// Hover Mixins
+// - normal element hover
+
+// Normal element hover
+@mixin hoverer($property, $normal, $hovered) {
+	#{$property}: $normal;
+	&:hover {
+		#{$property}: $hovered;
+	}
+}

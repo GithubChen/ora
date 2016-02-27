@@ -1,0 +1,59 @@
+// Typography
+//
+// - font family
+$font-family-default:   	"Helvetica Neue", Helvetica, Arial, sans-serif;
+//$font-family-customize: 	$os; // get the customize from fonts
+// - font size for body text, p, and more
+$font-size-base:    	62.5%;
+$font-size-default: 	1.4rem;
+$font-size-large:   	1.8rem;
+$font-size-small:   	1.2rem;
+$font-size-p:       	$font-size-default;
+// - font size for headings
+$font-size-h1:      	3.6rem;
+$font-size-h2: 			3rem;
+$font-size-h3: 			2.4rem;
+$font-size-h4: 			1.8rem;
+$font-size-h5: 			$font-size-default;
+$font-size-h6: 			1.2rem;
+
+// Scaffolding
+// - color for background, text and headings
+// - $text-color and headings-color -> default value of font mixin
+$body-bgc:   				#fff; 		// body background color default value
+$text-color: 				#000; 		// tect color default value
+$headings-color:			#555; 		// headings color default value
+// - a link default
+$line-height-base:			1.5;  		// line height default value
+$link-color: 				#000; 		// link color default value
+$link-hover-color: 			#555; 		// link hover color default value
+$link-hover-decoration: 	underline;	// link hover decoration default value
+// - border radius default -> default value of border-radius mixin
+$border-radius-default:		5px; 		// default
+// - opacity default -> default value of opacity mixin
+$opacity-default:			1;			// opacity default value
+
+// Grid System
+// Bootstrap - Grid system link: https://github.com/twbs/bootstrap-sass
+// - divided in half for the left and right
+// - $grid-gutter-widht -> default value of grid mixin
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+
+// Media
+// - Extra small screen / phone
+$screen-xs-min: 	480px;
+// - Small screen / tablet
+$screen-sm-min: 	768px;
+// - Medium screen / desktop
+$screen-md-min: 	992px;
+// - Large screen / wide desktop
+$screen-lg-min: 	1200px;
+
+// Container sizes
+// - Small screen / tablet
+$container-sm: 		750px;
+// - Medium screen / desktop
+$container-md: 		970px;
+// - Large screen / wide desktop
+$container-lg: 		1170px;

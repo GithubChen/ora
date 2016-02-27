@@ -1,0 +1,23 @@
+// Font Mixins
+// - Font
+// - Font headings
+
+// Font
+// -- set the font size, line-height and color for p element and others
+// $size value -> $font-size-p, $font-size-large, $font-size-small
+// the $text-color is the default value of $color
+@mixin font($size, $color:$text-color) {
+	font-size: $size;
+	line-height: $size*1.5;
+	color: $color;
+}
+
+// Font headings
+// -- set the font size, line-height and color for headings
+// $size value -> $font-size-h1 to $font-size-h6
+// the $headings-color is the default value of $color
+@mixin font-head($size, $color:$headings-color) {
+	font-size: $size;
+	line-height: $size*1.5;
+	color: $color;
+}

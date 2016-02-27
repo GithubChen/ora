@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>ORA</title>
+	<!-- bootstrap css style -->
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<!-- animation css style -->
+	<link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
+	<!-- customize css style -->
+	<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<!-- the customer information -->
+			<div class="wow bounceInLeft col-xs-12 info">
+				<h1>customer details</h1>
+				<p id="name"></p>
+				<p id="phone"></p>
+				<p id="tag"></p>
+				<p id="address"></p>
+			</div>
+
+			<!-- Rader chart -->
+			<div class="wow bounceInRight col-xs-12">
+				<h2>report data</h2>
+				<canvas id="canvas"></canvas>
+				<p>
+					<span class="box red"></span>The Customer
+					<span class="box orange"></span>Competitor X
+					<span class="box yellow"></span>The Business Co.
+					<span class="box green"></span>Industry Etc
+					<span class="box lightblue"></span>Another Competitor
+					<span class="box blue"></span>Random Business LTD
+				</p>
+			</div>
+
+			<!-- Bar chart -->
+			<div class="wow bounceInLeft col-xs-12">
+				<div id="report"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery Js -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<!-- Wow animation Js -->
+	<script src="bower_components/wow/dist/wow.min.js"></script>
+	<!-- Chart Js -->
+	<script src="bower_components/Chart.js/Chart.min.js"></script>
+	<!-- Canvas Js -->
+	<script src="js/canvasjs.min.js"></script></head>
+	<!-- customize js -->
+	<script src="js/main.js"></script>
+</body>
+</html>
