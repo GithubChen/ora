@@ -14,4 +14,5 @@ When hover the reader chart will show the valuse for the propety.
 
 The second report using canvas js, it shows values of different propety for each enterprise.
 You can click the property below the chart, it will hide or show the property which you clicked. It can make easy and clear confrontation for each property.
+
 More over, the canvas js also support the image downloading function only need a simple click at topright.
